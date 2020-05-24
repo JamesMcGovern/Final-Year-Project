@@ -1,0 +1,1026 @@
+/* General Web Page Styling */
+
+html {
+    background: #ffffff;
+    background-color: #cfcfc4;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 0.625em 0.25em #000000;
+    color: #005DAA;
+    font-family: Verdana, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 54em;
+    padding: 0.03125em 0 0.625em 0;
+    overflow-x: hidden;
+}
+
+header {
+    padding-bottom: 0;
+}
+
+main    {
+    padding-top: 0;
+}
+
+footer{
+    margin-left: 1.5625em;
+}
+
+legend {
+    text-align: left;
+}
+
+small {
+    color: #000000;
+}
+
+section {
+    padding-top: 0;
+}
+
+
+/* Styling certain text based tags */
+p {
+	font-family: Verdana, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	color: #000000;
+	font-size: 1em;
+}
+
+h1, h2 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 0;
+}
+
+
+h3 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: Verdana, Algerian, sans-serif;;
+    color: #005DAA;
+}
+
+h2 {
+    margin-top: 1.3em;
+    font-family: Verdana, Algerian, sans-serif;;
+    color: #005DAA;
+    text-align: center;
+}
+
+h4 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 1.125em;
+}
+
+h5 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h5 {
+    padding-right: 15.625em;
+}
+
+h6 {
+    color: #005DAA;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 1.875em;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 0;
+    margin:0;
+    text-align: center;
+}
+
+/* Forcing div and option tags to follow certain styling. */
+div, option{
+    font-size: 16px;
+    font-family: Verdana, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    color: #000000;
+}
+/* basic div styling */
+div {
+    display: inline-block;
+    text-align: left;
+}
+/* Styling the wrapper, this is the layer below the body. */
+#wrapper {
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+/* Styling fieldsets with house colours and better looking borders. */
+fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #00008b;
+	padding: 20px;
+	background: #BBE0F4;
+	box-shadow: inset 0px 0px 15px #486fa2;
+	-moz-box-shadow: inset 0px 0px 15px #486fa2;
+	-webkit-box-shadow: inset 0px 0px 15px #486fa2;
+}
+
+fieldset legend{
+	color: #00008b;
+	border-top: 1px solid #00008b;
+	border-left: 1px solid #00008b;
+	border-right: 1px solid #00008b;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #BBE0F4;
+	padding: 0px 8px 3px 8px;
+	box-shadow: inset 0px 1px 2px #486fa2;
+	-moz-box-shadow: inset 0px 1px 2px #486fa2;
+	-webkit-box-shadow: inset 0px 1px 2px #486fa2;
+	font-weight: normal;
+	font-size: 12px;
+}
+/* Making content easier to center where necessary */
+.center {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0;
+}
+/* Making text easier to center where necessary */
+.centertext{
+    text-align: center;
+}
+/* Making dropdowns slightly smaller */
+select {
+    width: 90%;
+}
+
+
+
+
+/* Information Page Styling */
+
+
+#infoPage {
+    max-width: 95%;
+}
+
+.hLink {
+    text-decoration: underline;
+    color: blue;
+}
+
+.hLink:hover {
+    cursor: pointer;
+}
+
+#tInfo td {
+    text-align: center;
+}
+/*Changing size of info page images*/
+#iCpu {
+    height: 41.5%;
+    width: auto;
+    margin-top: 2%;
+}
+#iCooler {
+    height: 60%;
+    width: auto;
+}
+#iRam {
+    height: 50%;
+    width: auto;
+}
+#iMobo {
+    height: 48%;
+    width: auto;
+}
+#iPsu {
+    height: 50%;
+    width: auto;
+}
+#iGpu {
+    height: 70%;
+    width: auto;
+}
+#iDrive {
+    height: 90%;
+    width: auto;
+}
+#iCase {
+    height: 80%;
+    width: auto;
+}
+/* Part image hover styling */
+.slct:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(2px 2px 0 red)
+                drop-shadow(-2px 2px 0 red)
+                drop-shadow(2px -2px 0 red)
+                drop-shadow(-2px -2px 0 red);
+
+filter: drop-shadow(2px 2px 0 red)
+        drop-shadow(-2px 2px 0 red)
+        drop-shadow(2px -2px 0 red)
+        drop-shadow(-2px -2px 0 red);
+}
+
+
+
+/* Build Page Styling */
+
+
+.buildMain {
+    float: left;
+    margin-left: 25%;
+    height: 700px;
+    width: 35%;
+    position: relative;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid #00008b;
+	padding: 20px;
+	background: #BBE0F4;
+	box-shadow: inset 0px 0px 15px #486fa2;
+	-moz-box-shadow: inset 0px 0px 15px #486fa2;
+	-webkit-box-shadow: inset 0px 0px 15px #486fa2;
+    
+}
+
+.buildParts {
+    float: right;
+    width: 20%;
+    padding-left: 2%;
+    margin-right: 1%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid #00008b;
+	background: #BBE0F4;
+	box-shadow: inset 0px 0px 15px #486fa2;
+	-moz-box-shadow: inset 0px 0px 15px #486fa2;
+	-webkit-box-shadow: inset 0px 0px 15px #486fa2;
+}
+
+/* Build Page Buttons */
+#rsBtn {
+    visibility: hidden;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 31%;
+    height: 8%;
+    margin-top: 2px; 
+    margin-right: 0;
+    float: right;
+}
+
+#helpBtn {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 31%;
+    height: 8%;
+    margin-top: 2px; 
+    margin-right: 0;
+}
+
+/*Question Modal Styling*/
+#qContent {
+    backface-visibility: visible; 
+    width: 45%; 
+    height: auto; 
+    overflow: hidden; 
+    top: 40%;
+    text-align: center;
+    display: block;
+    z-index: 11;
+    border-radius: 25px;
+}
+
+#qForm {
+  width: auto;
+  text-align: left;
+  display: table;
+  margin: auto;
+  font-size: 1.25em;
+}
+
+#qForm input {
+    width: 3em;
+    transform: scale(1.5);
+}
+
+.container {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#qImg {
+    vertical-align: middle;
+}
+
+/* Draggable Parts */
+.dParts {
+    float: right;
+    margin-right: 10%;
+}
+/*This is done twice to satisfy slight class differences elsewhere.*/
+.dParts:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(2px 2px 0 blue)
+                drop-shadow(-2px 2px 0 blue)
+                drop-shadow(2px -2px 0 blue)
+                drop-shadow(-2px -2px 0 blue);
+
+filter: drop-shadow(2px 2px 0 blue)
+        drop-shadow(-2px 2px 0 blue)
+        drop-shadow(2px -2px 0 blue)
+        drop-shadow(-2px -2px 0 blue);
+}
+
+.dPart:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(2px 2px 0 blue)
+                drop-shadow(-2px 2px 0 blue)
+                drop-shadow(2px -2px 0 blue)
+                drop-shadow(-2px -2px 0 blue);
+
+filter: drop-shadow(2px 2px 0 blue)
+        drop-shadow(-2px 2px 0 blue)
+        drop-shadow(2px -2px 0 blue)
+        drop-shadow(-2px -2px 0 blue);
+}
+
+#current {
+    /*display: block;
+    margin: auto;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+}
+/* These are use to highlight specific parts to assist with the build page. */
+#caseSlct {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 0 #0079bf)
+                drop-shadow(-5px 5px 0 #0079bf)
+                drop-shadow(5px -5px 0 #0079bf)
+                drop-shadow(-5px -5px 0 #0079bf);
+
+filter: drop-shadow(0px 0px 5px #0079bf)
+        drop-shadow(-0px 0px 5px #0079bf)
+        drop-shadow(0px -0px 5px #0079bf)
+        drop-shadow(-0px -0px 5px #0079bf);
+}
+
+#caseSlct:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 0 darkblue)
+                drop-shadow(-5px 5px 0 darkblue)
+                drop-shadow(5px -5px 0 darkblue)
+                drop-shadow(-5px -5px 0 darkblue);
+
+filter: drop-shadow(0px 0px 5px darkblue)
+        drop-shadow(-0px 0px 5px darkblue)
+        drop-shadow(0px -0px 5px darkblue)
+        drop-shadow(-0px -0px 5px darkblue);
+}
+
+#psuSlct {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 0 #0079bf)
+                drop-shadow(-5px 5px 0 #0079bf)
+                drop-shadow(5px -5px 0 #0079bf)
+                drop-shadow(-5px -5px 0 #0079bf);
+
+filter: drop-shadow(0px 0px 5px #0079bf)
+        drop-shadow(-0px 0px 5px #0079bf)
+        drop-shadow(0px -0px 5px #0079bf)
+        drop-shadow(-0px -0px 5px #0079bf);
+}
+
+#psuSlct:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 0 darkblue)
+                drop-shadow(-5px 5px 0 darkblue)
+                drop-shadow(5px -5px 0 darkblue)
+                drop-shadow(-5px -5px 0 darkblue);
+
+filter: drop-shadow(0px 0px 5px darkblue)
+        drop-shadow(-0px 0px 5px darkblue)
+        drop-shadow(0px -0px 5px darkblue)
+        drop-shadow(-0px -0px 5px darkblue);
+}
+
+
+/* Styling the Create Page */
+
+
+/* Used to style further info. */
+.inf {
+    text-align: left;
+}
+/* Styling the part images and the parts form. */
+#partImg {
+    height: auto;
+    width: 150px;
+}
+
+#parts {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Ajax Results */
+#divResults {
+    width: 100%;
+}
+#coolerResults {
+    width: 100%;
+}
+#moboResults {
+    width: 100%;
+}
+#ramResults {
+    width: 100%;
+}
+#CaseResults {
+    width: 100%;
+}
+#PSUResults {
+    width: 100%;
+}
+#GPUResults {
+    width: 100%;
+}
+#DriveResults {
+    width: 100%;
+}
+
+
+/* Navigation Styling */
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  z-index: 10;
+  position: fixed; /* Position them relative to the browser window */
+  right: -90px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  padding-left: 5px;  
+  width: 110px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 5px 0 0 5px; /* Rounded corners on the top right and bottom right side */
+  
+  background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(73,132,180)),
+        color-stop(1, rgb(97,155,203))
+    );
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    -moz-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+}
+
+#mySidenav a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+
+#build {
+  top: 50%;
+  background-color: #00A6CC;
+  text-align: right;
+}
+
+/* Style the links inside the sidenav */
+#leftnav a {
+  z-index: 10;
+  position: fixed; /* Position them relative to the browser window */
+  left: -90px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  padding-right: 5px;
+  width: 110px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  
+  background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(73,132,180)),
+        color-stop(1, rgb(97,155,203))
+    );
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    -moz-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+}
+
+#leftnav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+
+#left {
+  top: 50%;
+  background-color: #00A6CC;
+  text-align: left;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 2% auto; /* 15% from the top and centered */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 85%;
+  overflow: scroll;
+  overflow-x: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+
+/* The Close Buttons */
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeHelp {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeHelp:hover,
+.closeHelp:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* Media Styling */
+
+img {
+    background: transparent;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    margin: 1.3em auto;
+    opacity: 1.0;
+    padding: 0;
+    z-index: 1;
+}
+
+.imgLogo{
+    width: 10%;
+    left: 0;
+    margin-right: -10%;
+    margin-top: 0;
+    float: left;
+}
+
+
+video{
+    display: block;
+    width: 40.74%;
+    height: auto;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    width: 40.74%;
+    margin: auto;
+}
+
+
+
+/* Table Styling */
+
+/* General table styling */
+table, th, td {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    color: #000000;
+}
+
+table{
+    margin-bottom: 1em;
+}
+/* Bring back soloid borders for certain tables. */
+#tBord table, #tBord th, #tBord td {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: #000000;
+}
+
+
+/* Form Styling */
+
+input {
+    width: 11em;
+}
+/* styling add page forms */
+#cpuForm {
+    margin: auto;
+}
+#coolerForm {
+    margin: 0 auto;
+}
+#ramForm {
+    margin: auto;
+}
+#moboForm {
+    margin: auto;
+}
+#psuForm {
+    margin: auto;
+}
+#gpuForm {
+    margin: auto;
+}
+#driveForm {
+    margin: auto;
+}
+#caseForm {
+    margin: auto;
+}
+
+
+/* Generalised Button Styling */
+
+button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    height: 50%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    font-size: 1.3750em;
+    border: 1px solid #2d6898;
+    
+    background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(73,132,180)),
+        color-stop(1, rgb(97,155,203))
+    );
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    -moz-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
+ 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(88,154,204)),
+        color-stop(1, rgb(90,150,199))
+    );
+    
+    -webkit-box-shadow: 0px 2px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    -moz-box-shadow: 0px 2px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 2px 0px #2b638f, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    
+    -webkit-transition: all .001s ease-in-out;
+    -moz-transition: all .001s ease-in-out;
+    transition: all .001s ease-in-out;
+}
+
+
+
+
+/*The following defines what I want certain aspects of the site to appear like on larger devices/monitors.*/
+@media screen and (min-width: 865px)
+{
+form {
+    text-align: center;
+    margin-left: 12em;
+    width: 30em;
+    align-content: center;
+}
+} /* End of media query tag ---------------------------------------*/
+
+/* Adjusting for medium/large screen sizes. */
+@media screen and (max-width: 1850px){
+    /* Build pages parts section */
+    .buildParts {
+        width: 25%;
+    }
+}
+
+/* Adjusting sizes for smaller monitors. */
+@media screen and (max-width: 1400px){
+    .buildParts {
+        width: 35%;
+    }
+    .buildMain {
+        margin-left: 10%;
+        width: 40%;
+    }
+    #qContent {
+        top: 50%;
+        width: 80%;
+    }
+}
+
+/* Adjusting a couple of details on the build page for tablets and larger mobile devices. */
+@media screen and (max-width: 1020px){
+
+    .buildMain {
+        height: 600px;
+    }
+    #qContent {
+        top: 50%;
+        width: 80%;
+    }
+}
+
+/*The following defines what I want the site to appear like on smaller devices.*/
+@media screen and (max-width: 864px){
+
+/* Changing font size to better suit this screen size. */
+body{
+    font-size: 0.8em;
+}
+
+/* Resizes and adjusts images on the info page. */
+.slct {
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important;
+    float: none !important;
+    display: block !important;
+}
+
+/* Resizing and adding margin to the bottom of all buttons. */
+button {
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+/* Resizing video and iframe elements. */
+video {
+        width: 95%;
+    }
+    
+iframe {
+    width: 95%;
+    
+}
+
+table {
+     width: auto;
+}
+
+/* Forcing info table to 100% */
+#tInfo {
+    width: 100%;
+}
+
+
+/* Resizing info page images to better fit larger mobile devices. */
+#iCpu {
+    height: 25%;
+    width: auto;
+}
+#iCooler {
+    height: 40%;
+    width: auto;
+}
+#iRam {
+    height: 30%;
+    width: auto;
+}
+#iMobo {
+    height: 30%;
+    width: auto;
+}
+#iPsu {
+    height: 32%;
+    width: auto;
+}
+#iGpu {
+    height: 50%;
+    width: auto;
+}
+#iDrive {
+    height: 70%;
+    width: auto;
+}
+#iCase {
+    height: 60%;
+    width: auto;
+}
+
+.dParts {
+    margin-right: 0;
+    float: none;
+}
+
+.buildParts {
+    width: 40%;
+}
+.buildMain {
+    margin-left: 1%;
+    width: 45%;
+    height: 700px;
+}
+
+}/* End of media query tag ---------------------------------------*/
+
+/* Resizing elements for mobile screens. */
+@media screen and (max-width: 414px){
+    #helpBtn {
+        margin-left: 0 !important; /* Using this helps to override any other styling. */
+        width: 100%;
+        height: 9%;
+    }
+    
+    #rsBtn {
+        width: 100%;
+        height: 9%;
+    }
+    
+    .buildMain {
+        width: 35%;
+        height: 450px;
+    }
+    
+    #qContent {
+        top: 50%;
+        width: 80%;
+    }
+    
+    #submitAns {
+        width: 45%;
+    }
+    
+    #helpModal div {
+        margin-top: 50%;
+    }
+
+    button {
+        width: 45%;
+    }
+    
+    .imgLogo {
+        display: none;
+    }
+    
+    video {
+        width: 95%;
+    }
+    
+    iframe {
+        width: 95%;
+        height: auto;
+    }
+    
+    /*Resizing the info page images to work with mobile phone screens.*/
+    #iCpu {
+        height: 15%;
+        width: auto;
+        }
+    #iCooler {
+        height: 25%;
+        width: auto;
+    }
+    #iRam {
+        height: 20%;
+        width: auto;
+    }
+    #iMobo {
+        height: 20%;
+        width: auto;
+    }
+    #iPsu {
+        height: 20%;
+        width: auto;
+    }
+    #iGpu {
+        height: 30%;
+        width: auto;
+    }
+    #iDrive {
+        height: 50%;
+        width: auto;
+    }
+    #iCase {
+        height: 40%;
+        width: auto;
+    }
+}
